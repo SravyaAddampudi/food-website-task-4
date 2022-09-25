@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../index.html">
+  <title>Document</title>
+</head>
+
+<body>
+    <nav class="nav">
+        
+        <h3>About Us</h3>
+        <a href="../index.html">Home</a>
+      </nav>
+
+  <div class="About">
+    
+
+    <p class="para">Ours is the first of its kind,authentic Indian restaurant.<br></p>
+    <div class="cont">
+      <img src="https://image.shutterstock.com/image-photo/vegetables-on-wooden-background-bio-260nw-718967578.jpg" alt="">
+      <p>We grow all food crops using organic procedures and our products are 100% free from pesticides
+        and other harmfull chemicals.</p>
+    </div>
+    <div class="cont">
+      <p>
+        With chefs experienced over 15 years, our restaurant 
+        memorises your native Indian dishes with our food
+      </p>
+      <img src="https://eragro.ro/wp-content/uploads/2016/08/about-carousel-03.jpg" alt="">
+
+    </div>
+
+    <p>
+      So why wait,order with us Now!!<br><button class="btn">ORDER NOW</button>
+    </p>
+  </div>
+
+</body>
+
+</html>
+<style>
+  .About {
+    background: #f7b3b3;
+    
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: rgb(154, 243, 197);
+
+    
+  }
+
+  .nav img {
+    height: 6em;
+  }
+
+  .nav a {
+    font-size: 2em;
+  }
+
+  .About .cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: center;
+    
+   
+  }
+
+  .About h3 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .About .para {
+   font-family: 'Courier New', Courier, monospace;
+  }
+
+  .About p {
+    font-size: 3rem;
+    line-height: 2;
+    text-align: center;
+    /* justify-content: center; */
+  }
+
+  .About .cont img {
+    width: 50%;
+
+  }
+
+  @media (max-width: 800px) {
+    .About .cont {
+      flex-direction: column;
+    }
+  }
+
+  .btn{
+  margin-top: 1rem;
+  display: inline-block;
+  font-size: 1.7rem;
+  color:black;
+  background:green;
+  border-radius: .5rem;
+  cursor: pointer;
+  padding:.8rem 3rem;
+}
+
+.btn:hover{
+  background: orange;
+  letter-spacing: .1rem;
+}
+
+</style>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../index.html">
+  <title>Gallery</title>
+</head>
+
+<body>
+  <div class="nav">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7qgGQLp4mnpoc02Cg2ySVbETOKuXDrRQ4Udf79w7ZF9zDg3Bxa_tlXaLXzM0pUGNdHm0&usqp=CAU" alt="">
+    <h1>Our Gallery</h1>
+    <a href="../index.html">Home</a>
+  </div>
+
+  <h2>Image Gallery</h2>
+  <div class="Gallery">
+    <div class="cont">
+      <img src="https://i.pinimg.com/originals/fd/b6/e2/fdb6e251112018ea586d337670c86537.jpg" alt="">
+      <p>We started our 1st Restaurant in 1992💚</p>
+    </div>
+  
+    <div class="cont">
+      
+      <p>Thousands of people loved💖 our food</p>
+      <img src="https://images.unsplash.com/photo-1592861956120-e524fc739696?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVvcGxlJTIwZWF0aW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="">
+    </div>
+    
+    <div class="cont">
+        <img src="G3.jpg" alt="">
+      <p>From year 1999,we started new branches🎉🎊</p>
+      
+    </div>
+    <div class="cont">
+      
+      <p>Our quality,taste remained same all these years🤤</p>
+      <img src="https://www.cypressgreen.in/blog/wp-content/uploads/2021/03/food.jpg" alt="">
+    </div>
+    <div class="cont">
+        <img src="https://i.pinimg.com/originals/48/28/46/482846450ac995ca29d21134824b935f.jpg" alt="">
+      <p>With requests from our customers ,we launched online services in 2005🎊</p>
+      
+    </div>
+    <div class="cont">
+     
+      <p>Neat & Clean packing</p>
+      <img src="https://img.freepik.com/free-photo/front-view-young-female-courier-green-uniform-holding-coffee-cups-food-delivery-packages-white_140725-20671.jpg?w=2000" alt="">
+    </div>
+    <div class="cont">
+        <img src="https://media.istockphoto.com/photos/weve-got-you-covered-during-lockdown-picture-id1287632111?k=20&m=1287632111&s=612x612&w=0&h=VuwiEwCEB6rrpbiCt9XE_gOD1_WVO9el1bviyold4RQ=" alt="">
+      <p>Delivers on time💌</p>
+      
+    </div>
+    <div class="cont">
+     
+      <p>Thousands of people happy with our healthy food 😍</p>
+      <img src="../images/G9.jpg" alt="">
+    </div>
+
+  </div>
+
+
+
+  <style>
+    .Gallery {
+      background-image: linear-gradient(pink,rgb(168, 211, 221));
+      padding: 2%;
+    }
+
+    .nav {
+      display: flex;
+      position: fixed;
+      width: 100vw;
+      height: 10vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .nav img {
+      height: 6em;
+    }
+
+    .nav a {
+      font-size: 2em;
+    }
+
+    .Gallery .cont {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      justify-items: center;
+      gap: 1rem;
+      padding: 0 20vh 10vh;
+      border-top: .1rem solid rgba(0,0,0,.1);
+      border-left: .1rem solid rgba(0,0,0,.1);
+      border-right: .1rem solid rgba(0,0,0,.1);
+    }
+
+    .Gallery h3 {
+      font-size: 3rem;
+      text-align: center;
+    }
+
+    .Gallery .para {
+      margin-top: 20vh;
+    }
+
+    .Gallery p {
+      font-size: 3rem;
+      line-height: 2;
+      text-align: center;
+      /* justify-content: center; */
+    }
+
+    .Gallery .cont img {
+      width: 40%;
+
+    }
+    .Gallery .cont img:hover {
+      width: 60%;
+
+    }
+
+    @media (max-width: 800px) {
+      .Gallery .cont {
+        flex-direction: column;
+      }
+    }
+  </style>
